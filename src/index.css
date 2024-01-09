@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-navbar {
+    @apply bg-gradient-to-l from-orange-400 via-orange-600 to-orange-700;
+  }
+  .bg-footer {
+    @apply bg-gradient-to-r from-orange-500 to-orange-600;
+  }
+  .btn-primary{
+    @apply rounded-md border-2 border-secondary bg-secondary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-secondary/80
+  }
+  .btn-outline{
+    @apply rounded-md border-2 border-white px-4 py-2 text-sm text-white transition-colors duration-300;
+  }
+}
